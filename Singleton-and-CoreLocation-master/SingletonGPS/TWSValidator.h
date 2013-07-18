@@ -12,5 +12,6 @@
 
 + (NSArray *) getArrayWithObject : (id) object;
 + (NSDictionary *) getDictionaryWithObject : (id) object;
-+ (NSDictionary *) getValidBankWithArray : (NSArray *) array;
++ (NSMutableDictionary *) getValidBankWithArray : (NSArray *) array;
+
 @end

@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C37B0E45174F97F700C1AC1A /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C37B0E44174F97F700C1AC1A /* SecondViewController.m */; };
+		3195CC3D1795940D00073F2D /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3195CC3C1795940D00073F2D /* Social.framework */; };
+		3195CC3F1795941400073F2D /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3195CC3E1795941400073F2D /* Accounts.framework */; };
+		C37A6AC617975554002CBFB0 /* ScrollingNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C37A6AC517975554002CBFB0 /* ScrollingNavigationViewController.m */; };
+		C37A6AC917975662002CBFB0 /* nav-bar.png in Resources */ = {isa = PBXBuildFile; fileRef = C37A6AC717975662002CBFB0 /* nav-bar.png */; };
+		C37A6ACA17975662002CBFB0 /* nav-bar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C37A6AC817975662002CBFB0 /* nav-bar@2x.png */; };
 		C37B0E47174F9AB600C1AC1A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C37B0E46174F9AB600C1AC1A /* CoreLocation.framework */; };
 		C37C6401179492E3009AE42B /* TWSValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = C37C6400179492E3009AE42B /* TWSValidator.m */; };
 		C37F224C174F486C0068FB3D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C37F224B174F486C0068FB3D /* UIKit.framework */; };
@@ -20,13 +24,17 @@
 		C37F2260174F486D0068FB3D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C37F225F174F486D0068FB3D /* Default@2x.png */; };
 		C37F2262174F486D0068FB3D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C37F2261174F486D0068FB3D /* Default-568h@2x.png */; };
 		C37F2265174F486D0068FB3D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C37F2263174F486D0068FB3D /* MainStoryboard.storyboard */; };
-		C37F2268174F486D0068FB3D /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C37F2267174F486D0068FB3D /* FirstViewController.m */; };
-		C37F2270174F48930068FB3D /* SingletonGPS.m in Sources */ = {isa = PBXBuildFile; fileRef = C37F226F174F48930068FB3D /* SingletonGPS.m */; };
+		C37F2268174F486D0068FB3D /* TweetyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C37F2267174F486D0068FB3D /* TweetyViewController.m */; };
+		C37F2270174F48930068FB3D /* TWSManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C37F226F174F48930068FB3D /* TWSManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C37B0E43174F97F600C1AC1A /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		C37B0E44174F97F700C1AC1A /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		3195CC3C1795940D00073F2D /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		3195CC3E1795941400073F2D /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		C37A6AC417975554002CBFB0 /* ScrollingNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollingNavigationViewController.h; sourceTree = "<group>"; };
+		C37A6AC517975554002CBFB0 /* ScrollingNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollingNavigationViewController.m; sourceTree = "<group>"; };
+		C37A6AC717975662002CBFB0 /* nav-bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav-bar.png"; sourceTree = "<group>"; };
+		C37A6AC817975662002CBFB0 /* nav-bar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav-bar@2x.png"; sourceTree = "<group>"; };
 		C37B0E46174F9AB600C1AC1A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		C37C63FF179492E3009AE42B /* TWSValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWSValidator.h; sourceTree = "<group>"; };
 		C37C6400179492E3009AE42B /* TWSValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWSValidator.m; sourceTree = "<group>"; };
@@ -45,10 +53,10 @@
 		C37F225F174F486D0068FB3D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		C37F2261174F486D0068FB3D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		C37F2264174F486D0068FB3D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		C37F2266174F486D0068FB3D /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		C37F2267174F486D0068FB3D /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		C37F226E174F48930068FB3D /* SingletonGPS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingletonGPS.h; sourceTree = "<group>"; };
-		C37F226F174F48930068FB3D /* SingletonGPS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingletonGPS.m; sourceTree = "<group>"; };
+		C37F2266174F486D0068FB3D /* TweetyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TweetyViewController.h; sourceTree = "<group>"; };
+		C37F2267174F486D0068FB3D /* TweetyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TweetyViewController.m; sourceTree = "<group>"; };
+		C37F226E174F48930068FB3D /* TWSManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWSManager.h; sourceTree = "<group>"; };
+		C37F226F174F48930068FB3D /* TWSManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWSManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3195CC3F1795941400073F2D /* Accounts.framework in Frameworks */,
+				3195CC3D1795940D00073F2D /* Social.framework in Frameworks */,
 				C37B0E47174F9AB600C1AC1A /* CoreLocation.framework in Frameworks */,
 				C37F224C174F486C0068FB3D /* UIKit.framework in Frameworks */,
 				C37F224E174F486C0068FB3D /* Foundation.framework in Frameworks */,
@@ -66,6 +76,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3195CC3217958D7D00073F2D /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C37D0A311797B74A0086041A /* Tweety  */,
+				C37D0A301797B7400086041A /* Scroll View */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		C37D0A301797B7400086041A /* Scroll View */ = {
+			isa = PBXGroup;
+			children = (
+				C37A6AC417975554002CBFB0 /* ScrollingNavigationViewController.h */,
+				C37A6AC517975554002CBFB0 /* ScrollingNavigationViewController.m */,
+			);
+			name = "Scroll View";
+			sourceTree = "<group>";
+		};
+		C37D0A311797B74A0086041A /* Tweety  */ = {
+			isa = PBXGroup;
+			children = (
+				C37F2266174F486D0068FB3D /* TweetyViewController.h */,
+				C37F2267174F486D0068FB3D /* TweetyViewController.m */,
+			);
+			name = "Tweety ";
+			sourceTree = "<group>";
+		};
 		C37F223F174F486C0068FB3D = {
 			isa = PBXGroup;
 			children = (
@@ -97,18 +134,17 @@
 		C37F2251174F486C0068FB3D /* SingletonGPS */ = {
 			isa = PBXGroup;
 			children = (
+				C37A6AC717975662002CBFB0 /* nav-bar.png */,
+				C37A6AC817975662002CBFB0 /* nav-bar@2x.png */,
+				3195CC3217958D7D00073F2D /* View Controllers */,
 				C37C63FF179492E3009AE42B /* TWSValidator.h */,
 				C37C6400179492E3009AE42B /* TWSValidator.m */,
 				C37C6402179492ED009AE42B /* TWSBankList.h */,
-				C37F226E174F48930068FB3D /* SingletonGPS.h */,
-				C37F226F174F48930068FB3D /* SingletonGPS.m */,
+				C37F226E174F48930068FB3D /* TWSManager.h */,
+				C37F226F174F48930068FB3D /* TWSManager.m */,
 				C37F225A174F486D0068FB3D /* AppDelegate.h */,
 				C37F225B174F486D0068FB3D /* AppDelegate.m */,
 				C37F2263174F486D0068FB3D /* MainStoryboard.storyboard */,
-				C37F2266174F486D0068FB3D /* FirstViewController.h */,
-				C37F2267174F486D0068FB3D /* FirstViewController.m */,
-				C37B0E43174F97F600C1AC1A /* SecondViewController.h */,
-				C37B0E44174F97F700C1AC1A /* SecondViewController.m */,
 				C37F2252174F486C0068FB3D /* Supporting Files */,
 			);
 			path = SingletonGPS;
@@ -117,6 +153,8 @@
 		C37F2252174F486C0068FB3D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3195CC3E1795941400073F2D /* Accounts.framework */,
+				3195CC3C1795940D00073F2D /* Social.framework */,
 				C37F2253174F486C0068FB3D /* SingletonGPS-Info.plist */,
 				C37F2254174F486C0068FB3D /* InfoPlist.strings */,
 				C37F2257174F486D0068FB3D /* main.m */,
@@ -184,6 +222,8 @@
 				C37F2260174F486D0068FB3D /* Default@2x.png in Resources */,
 				C37F2262174F486D0068FB3D /* Default-568h@2x.png in Resources */,
 				C37F2265174F486D0068FB3D /* MainStoryboard.storyboard in Resources */,
+				C37A6AC917975662002CBFB0 /* nav-bar.png in Resources */,
+				C37A6ACA17975662002CBFB0 /* nav-bar@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,10 +236,10 @@
 			files = (
 				C37F2258174F486D0068FB3D /* main.m in Sources */,
 				C37F225C174F486D0068FB3D /* AppDelegate.m in Sources */,
-				C37F2268174F486D0068FB3D /* FirstViewController.m in Sources */,
-				C37F2270174F48930068FB3D /* SingletonGPS.m in Sources */,
-				C37B0E45174F97F700C1AC1A /* SecondViewController.m in Sources */,
+				C37F2268174F486D0068FB3D /* TweetyViewController.m in Sources */,
+				C37F2270174F48930068FB3D /* TWSManager.m in Sources */,
 				C37C6401179492E3009AE42B /* TWSValidator.m in Sources */,
+				C37A6AC617975554002CBFB0 /* ScrollingNavigationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

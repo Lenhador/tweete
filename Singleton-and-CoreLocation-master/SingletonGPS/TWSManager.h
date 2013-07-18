@@ -11,12 +11,14 @@
 
 #define API_KEY @"AIzaSyB4vVD0jQRylP46g8eDO5hQhwekxbV53gc"
 
-@interface SingletonGPS : NSObject <CLLocationManagerDelegate>
+@interface ConnectionManager : NSObject <CLLocationManagerDelegate>
 
 @property CLLocationManager *locationManager;
-@property NSString *location;
 @property (strong, nonatomic) NSDictionary *activeAddresses;
-+ (SingletonGPS *) sharedInstanse;
-- (void) getAddressWithLatlng : (NSString *)latlng target : (NSString *)target;
+
++ (ConnectionManager *) sharedInstanse;
+
+- (void) startUpdateLocation;
+- (void) stopUpdateLocation;
 
 @end
